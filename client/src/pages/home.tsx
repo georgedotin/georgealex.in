@@ -24,6 +24,13 @@ export default function Home() {
       url: "https://linkedin.com",
       color: "hover:bg-[#0077b5] hover:text-white",
       description: "Professional background and network"
+    },
+    {
+      name: "X",
+      icon: <span className="font-sans font-bold text-xl">𝕏</span>,
+      url: "https://x.com",
+      color: "hover:bg-black hover:text-white",
+      description: "Follow my latest updates and news"
     }
   ];
 
