@@ -48,3 +48,9 @@ waitForPort = 5000
 
 [agent]
 mockupState = "MOCKUP"
+
+
+
+[[deployment.rewrites]]
+from = "**"
+to = "/index.html"
